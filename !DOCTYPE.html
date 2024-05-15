@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ma Boutique Artisanale</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+        }
+        header {
+            background-color: #343a40;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            background-color: #495057;
+        }
+        nav a {
+            color: white;
+            padding: 1rem;
+            text-decoration: none;
+            display: block;
+        }
+        nav a:hover {
+            background-color: #6c757d;
+        }
+        .container {
+            padding: 2rem;
+        }
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .product {
+            background-color: white;
+            border: 1px solid #dee2e6;
+            border-radius: 5px;
+            margin: 1rem;
+            padding: 1rem;
+            width: 30%;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .product img {
+            max-width: 100%;
+            border-radius: 5px;
+        }
+        .product h3 {
+            margin: 0.5rem 0;
+        }
+        .product p {
+            color: #6c757d;
+        }
+        .product button {
+            background-color: #28a745;
+            color: white;
+            border: none;
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .product button:hover {
+            background-color: #218838;
+        }
+        footer {
+            background-color: #343a40;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Ma Boutique Artisanale</h1>
+    </header>
+    <nav>
+        <a href="#home">Accueil</a>
+        <a href="#about">À propos de moi</a>
+        <a href="#shop">Boutique</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container" id="home">
+        <h2>Bienvenue dans ma boutique artisanale !</h2>
+        <p>Découvrez des articles uniques faits main avec amour et passion.</p>
+    </div>
+    <div class="container" id="about">
+        <h2>À propos de moi</h2>
+        <p>Je suis Otmane Bekkali, un technicien supérieur en bâtiment avec une passion pour l'artisanat. Chaque pièce est conçue avec soin et dévouement pour apporter une touche unique à votre intérieur.</p>
+    </div>
+    <div class="container" id="shop">
+        <h2>Boutique</h2>
+        <div class="products">
+            <div class="product">
+                <img src="image1.jpg" alt="Article 1">
+                <h3>Article 1</h3>
+                <p>Description de l'article 1.</p>
+                <p>Prix: 20€</p>
+                <button>Ajouter au panier</button>
+            </div>
+            <div class="product">
+                <img src="image2.jpg" alt="Article 2">
+                <h3>Article 2</h3>
+                <p>Description de l'article 2.</p>
+                <p>Prix: 35€</p>
+                <button>Ajouter au panier</button>
+            </div>
+            <div class="product">
+                <img src="image3.jpg" alt="Article 3">
+                <h3>Article 3</h3>
+                <p>Description de l'article 3.</p>
+                <p>Prix: 25€</p>
+                <button>Ajouter au panier</button>
+            </div>
+        </div>
+    </div>
+    <div class="container" id="contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:bekkaliotmane83@gmail.com">bekkaliotmane83@gmail.com</a></p>
+        <p>Téléphone: +212 6019 44477 / +212 7171 140100</p>
+        <p>Adresse: N 8 rue 4 BLED MEKRAN LAMCELLA FES</p>
+    </div>
+    <footer>
+        <p>&copy; 2024 Otmane Bekkali. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
